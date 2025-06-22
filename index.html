@@ -3,19 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>US Phone Number Validator</title>
   <link rel="stylesheet" href="styles.css" />
+<title>RPG Creature Search</title>
 </head>
 <body>
-  <main class="validator-card">
-    <h1>Phone Number Validator</h1>
-    <input id="user-input" type="text" placeholder="Enter US phone number..." />
-    <div class="button-group">
-      <button id="check-btn">Validate</button>
-      <button id="clear-btn">Clear</button>
-    </div>
-    <div id="results-div"></div>
-  </main>
+  <h1>RPG Creature Search</h1>
+
+  <input id="search-input" type="text" placeholder="Enter name or ID" required />
+  <button id="search-button">Search</button>
+
+  <div>
+    <h2 id="creature-name"></h2>
+    <p id="creature-id"></p>
+    <p id="weight"></p>
+    <p id="height"></p>
+    <div id="types"></div>
+    <p id="hp"></p>
+    <p id="attack"></p>
+    <p id="defense"></p>
+    <p id="special-attack"></p>
+    <p id="special-defense"></p>
+    <p id="speed"></p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
