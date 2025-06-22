@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.validator-card {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.7rem;
+  color: #2c3e50;
+  margin-bottom: 1.2rem;
+}
+
+input {
+  width: 87%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-right: 10px;
+}
+
+input:focus {
+  border-color: #6a82fb;
+}
+
+.button-group {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.7rem 1.3rem;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+#check-btn {
+  background: #6a82fb;
+  color: white;
+}
+
+#check-btn:hover {
+  background: #5c6bc0;
+}
+
+#clear-btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+#clear-btn:hover {
+  background: #e0e0e0;
+}
+
+#results-div {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: 500;
+  min-height: 1.5rem;
+}
